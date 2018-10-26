@@ -51,6 +51,44 @@
       </div>
       <div class="parallax"><img src="img/22.jpeg"></div>
     </div>
+
+    <div class="container orange lighten-3">
+      <div class="col">
+          <ul class="collapsible popout orange lighten-2" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header active">Why is solar Important?</div>
+                <div class="collapsible-body"><span>There is a lot of power packed in our sun that all living things on earth depend upon. Plants use the sun's energy in photosynthesis, cleaning our air and providing fresh oxygen. ... Solar energy is renewable, meaning we can never run out of sunshine.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">What is Photovoltaic in solar energy?</div>
+                <div class="collapsible-body"><span><b>Solar</b> cells, also called <b>photovoltaic (PV)</b> cells by scientists, convert sunlight directly into electricity. PV gets its name from the process of converting light (photons) to electricity (voltage), which is called the <b>PV</b> effect.</span></div>
+              </li>
+              <li>
+                <div class="collapsible-header">How does Photovoltaic solar system work?</div>
+                <div class="collapsible-body"><span>When light shines on the cell it creates an electric field across the layers causing electricity to flow. ... An inverter <b>can</b> convert this DC power into alternating current (AC power, which is the type of electricity used in your home). <b>PV</b> modules are joined together to form a <b>PV Solar Panel system.</b></span></div>
+              </li>
+              <li>
+                  <div class="collapsible-header">What are the main advantages and disadvantages to solar energy?</div>
+                  <div class="collapsible-body"><span>
+                    <ul>
+                    <li>•	Renewable Energy Source. Among all the benefits of solar panels, the most important thing is that solar energy is a truly renewable energy source. </li>
+                    <li>•	Reduces Electricity Bills. ... </li>
+                    <li>•	Diverse Applications. ... </li>
+                    <li>•	Low Maintenance Costs. ... </li>
+                    <li>•	Technology Development. ... </li>
+                    <li>•	<b>Cost. ... </b></li>
+                    <li>•	<b>Weather Dependent. ... </b></li>
+                    <li>•	<b>Solar Energy Storage Is Expensive.</b></li>
+                    </ul>
+                  </span></div>
+              </li>
+              <li>
+                    <div class="collapsible-header">Why solar energy is important?</div>
+                    <div class="collapsible-body"><span><b>Solar </b>Is Clean and Safe. <b>Solar</b> is a safe alternative which can replace current fossil fuels like coal and gas for generation of electricity that produce air, water, and land pollution. Use of <b>solar energy</b> will eliminate these unsafe, unclean consequences from using conventional fossil fuels.</span></div>
+              </li>
+            </ul>
+      </div>
+    </div>
         
 
 
@@ -68,6 +106,9 @@
         $('.parallax').parallax();
         });
 
+        $(document).ready(function(){
+          $('.collapsible').collapsible();
+        });
 
         $(document).ready(function(){
           $(window).scroll(function(){
