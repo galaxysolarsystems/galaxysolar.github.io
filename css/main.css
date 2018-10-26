@@ -1,5 +1,6 @@
 body{
-    min-height: 200vh;
+    min-height: 400vh;
+    background-color: #ffecb3;
 }
 
 .header{
@@ -18,4 +19,11 @@ body{
 .sticky-nav{
     position: fixed;
     top: 0;
+}
+
+.thin-text{
+    font-weight: 300;
+    background: rgba(255, 236, 179, .4);
+    padding: 40px;
+    border-radius: 10px;
 }

@@ -17,7 +17,7 @@
   <body>
 
       <div class="header center-align">
-          <img class="logo" src="img/Galaxy_Solar_Systems_Logo.jpg">
+          <img class="logo" src="img/Galaxy_Solar_Systems_Logo.png">
       </div>
       <div>
       <nav class="amber darken-3">
@@ -39,6 +39,19 @@
           <li><a href="index.html">ContactUs</a></li>
       </ul>
    
+      <!--Hero section-->
+      
+    <div class="parallax-container valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col l12 s8 orange-text text-accent-4">
+            <h4 class="thin-text center-align "> INVEST IN SUN FOR <br/>GOLDEN FUTURE <br/>ROOF TOP ON GRID SOLAR SYSTEM</h4>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/22.jpeg"></div>
+    </div>
+        
 
 
 
@@ -50,7 +63,12 @@
        $(document).ready(function(){
          $(".button-collapse").sideNav();
        });
-          
+
+       $(document).ready(function(){
+        $('.parallax').parallax();
+        });
+
+
         $(document).ready(function(){
           $(window).scroll(function(){
             if($(window).scrollTop()>200){
@@ -59,7 +77,8 @@
               $('nav').removeClass('sticky-nav');
             }
           });
-        });    
+        });
+
     </script>
   </body>
 </html>
