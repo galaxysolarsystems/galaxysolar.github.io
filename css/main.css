@@ -1,5 +1,4 @@
 body{
-    min-height: 400vh;
     background-color: #ffecb3;
 }
 
@@ -52,3 +51,30 @@ body{
      font-size: 22px;
      font-style: italic;
  }
+
+ .paddinging{
+     padding: 10px;
+ }
+
+ hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.Address{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #212121;
+}
+
+.formcontact{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #212121;
+}
